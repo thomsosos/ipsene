@@ -26,6 +26,8 @@
             <version>18-ea+6</version>
         </dependency>
 
+
+
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
@@ -60,7 +62,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>com.ipsene.ipsene/com.ipsene.ipsene.HelloApplication</mainClass>
+                            <mainClass>com.ipsene.ipsene/HelloApplication</mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
                             <jlinkImageName>app</jlinkImageName>
